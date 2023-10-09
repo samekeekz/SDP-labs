@@ -1,3 +1,5 @@
+package firstAssignment;
+
 public class StandardPricing implements PricingStrategy{
 
     @Override

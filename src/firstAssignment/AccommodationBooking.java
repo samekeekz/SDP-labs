@@ -1,3 +1,5 @@
+package firstAssignment;
+
 public class AccommodationBooking {
     private String accommodationName;
     private double basePrice;
