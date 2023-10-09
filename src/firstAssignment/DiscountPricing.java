@@ -1,3 +1,5 @@
+package firstAssignment;
+
 public class DiscountPricing implements PricingStrategy{
     private double discountPercentage;
 
