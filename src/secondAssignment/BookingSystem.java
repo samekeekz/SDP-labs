@@ -8,6 +8,7 @@ public class BookingSystem {
         BookingComponent vacationRentalBooking = new BaseBooking("Beach House", 150);
         BookingComponent extraServiceRentalBooking = new ExtraServiceDecorator(vacationRentalBooking, 20);
 
+        
         // Calculate total prices for different bookings
         double price1 = discountedHotelBooking.calculateTotalPrice();
         double price2 = extraServiceRentalBooking.calculateTotalPrice();
